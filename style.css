@@ -10,10 +10,11 @@ body {
 }
 
 #gameScreen {
-    width: 150vb;
-    height: 75vb;
+    width: 75vw;
+    height: 75vh;
     background-color: rgba(255, 255, 255, 0.75);
     margin-bottom: 10px;
+    border-radius: 32vb;
 }
 
 #test {
