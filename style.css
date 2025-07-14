@@ -1,8 +1,24 @@
 body {
     background-color: rgba(58, 12, 163);
+    
 }
 
 #everything {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameScreen {
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 10px;
+}
+
+#test {
+    background-color: white;
+    width: 50px;
     display: flex;
     justify-content: center;
 }
